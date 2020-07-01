@@ -1,0 +1,38 @@
+
+
+Java TreeSet class implements the Set interface that uses a tree for storage.
+
+The important points about Java TreeSet class are:
+
+Java TreeSet class contains unique elements only like HashSet.
+Java TreeSet class access and retrieval times are quiet fast.
+Java TreeSet class doesn't allow null element.
+Java TreeSet class is non synchronized.
+Java TreeSet class maintains ascending order.
+
+
+//"Traversing element through Iterator in descending order"
+
+Iterator i=set.descendingIterator();  
+
+
+//"Highest Value: "+set.pollFirst()
+//"Lowest Value: "+set.pollLast()
+
+ 	 System.out.println("Initial Set: "+set);  
+           
+         System.out.println("Reverse Set: "+set.descendingSet());  
+           
+         System.out.println("Head Set: "+set.headSet("C", true));  
+          
+         System.out.println("SubSet: "+set.subSet("A", false, "E", true));  
+           
+         System.out.println("TailSet: "+set.tailSet("C", false)); 
+
+	 System.out.println("Intial Set: "+set);  
+           
+         System.out.println("Head Set: "+set.headSet("C"));  
+          
+         System.out.println("SubSet: "+set.subSet("A", "E"));  
+           
+         System.out.println("TailSet: "+set.tailSet("C")); 

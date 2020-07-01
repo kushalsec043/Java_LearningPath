@@ -1,0 +1,61 @@
+
+
+Java ArrayList class
+------------------------------------------------------------------------
+
+Java Non-generic Vs. Generic Collection
+
+Ways to iterate the elements of the collection in java
+There are various ways to traverse the collection elements:
+
+By Iterator interface.
+By for-each loop.
+By ListIterator interface.
+By for loop.
+By forEach() method.
+By forEachRemaining() method.
+
+Iterating Collection through Iterator interfaces
+
+Iterating Collection through the for-each loop
+
+Iterating Collection through remaining ways
+
+Java ArrayList Serialization and Deserialization Example
+
+Java ArrayList example to add elements 
+	 //On specific position
+	//Add all
+
+Java ArrayList example to remove elements
+        //Removing specific element from arraylist  
+        //Removing element on the basis of specific position  
+	//Remove all
+	//Clear
+	//Retainall retains elements that are present in given list
+	//Java ArrayList example of isEmpty() method
+	//Java ArrayList example of set() and get() method
+	//Java ArrayList Example: Book
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

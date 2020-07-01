@@ -1,0 +1,26 @@
+
+
+Java LinkedHashMap class
+
+Points to remember
+Java LinkedHashMap contains values based on the key.
+Java LinkedHashMap contains unique elements.
+Java LinkedHashMap may have one null key and multiple null values.
+Java LinkedHashMap is non synchronized.
+Java LinkedHashMap maintains insertion order.
+The initial default capacity of Java HashMap class is 16 with a load factor of 0.75.
+
+ LinkedHashMap<Integer, String> map = new LinkedHashMap<Integer, String>();           
+      map.put(100,"Amit"); 
+
+
+//Adding Books to map   
+    map.put(2,b2);  
+    map.put(1,b1);  
+    map.put(3,b3);  
+
+Map<Integer,Book> map=new LinkedHashMap<Integer,Book>();    
+
+ for(Map.Entry<Integer, Book> entry:map.entrySet()){    
+        int key=entry.getKey();  
+        Book b=entry.getValue();

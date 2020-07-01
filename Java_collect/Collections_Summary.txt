@@ -1,0 +1,77 @@
+
+Vector - synchronized, doubles its size if more than capacity.
+------------------------------------------------------------------------
+
+List Interface
+------------------------------------------------------------------------
+
+ArrayList - Duplicate items ok, insertion order ok, non synchronized
+
+LinkedList - Duplicate items ok, manipulation is fast than ArrayList
+------------------------------------------------------------------------
+
+Set Interface
+---------------------------------------------------------------------------
+
+Hashset - Unique elements, Null values ok, Non synchronized
+
+Linkedhashset - Unique elements, Maintains insertion order
+
+Treeset - Unique elements, Access & retrieval fast, No null values, ascending order
+
+-------------------------------------------------------------------------
+
+Queue Interface
+----------------------------------------------------------------------------
+
+Priority queue - Doesnot maintain order, remove in priority fashion.
+
+-------------------------------------------------------------------------
+
+Deque Interface
+-------------------------------------------------------------------------
+
+ArrayDeque -  insertion and removal at both ends, offerFirst() & pollLast()
+
+--------------------------------------------------------------------------
+
+Map Interface
+-----------------------------------------------------------------------------------
+
+HashMap - Value based on keys, non synchronized, No order
+
+LinkedHashMap - One null key, non synchronized, maintains insertion order
+
+TreeMap - Unique elements, non synchronized, ascending order
+
+---------------------------------------------------------------------------
+
+Dictionary class and implements Map interface
+----------------------------------------------------------------------------
+
+HashTable - Synchronized, value with keys, no null values
+
+---------------------------------------------------------------------------
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

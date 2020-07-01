@@ -1,0 +1,24 @@
+
+
+Java LinkedList class can be used as a list, stack or queue.
+Doubly Linked List
+
+Java LinkedList example to add elements
+	//Adding an element at the specific position  
+	//Adding second list elements to the first list  ll.addAll(ll2);  
+	//Adding second list elements to the first list at specific position  
+	//Adding an element at the first position  ..addFirst
+	//Adding an element at the last position   ..addlast
+
+Java LinkedList example to remove elements
+	//Removing specific element from arraylist  
+	//Removing element on the basis of specific position  
+	//Removing first element from the list 
+	//Removing last element from the list 
+	//Removing first occurrence of element from the list  
+	//Removing last occurrence of element from the list  
+
+	//Traversing the list of elements in reverse order  
+           Iterator i=ll.descendingIterator(); 
+
+	

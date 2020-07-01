@@ -1,0 +1,176 @@
+
+Complete Core Java
+-------------------------------------------------------------------------------------------------
+- How Java Works.
+- Variables.
+- Primitive Datatype.
+- Primitive and Reference type.
+- Naming Convention.
+- Arithmetic operators.
+- Conditional statements.
+- Loops Iteration statement.
+- Ternary and Switch.
+- Nested Loops.
+- Break and Continue.
+- Arrays 1D, 2D.
+- Enhanced Loops.
+
+- Class and Object.
+
+Ways of creating objects.
+- New keyword.
+- newInstance() of Class.
+- clone() method.
+- Deserialization.
+- newInstance() of Constructor Class. 
+
+- Constructor in Theory.
+- This keyword.
+- Method and Constructor Overloading.
+- Method Overloading and Overriding(@Override).
+- Static keyword.
+- Inner classes.
+- Var args.
+- Inheritance.
+- Super Method().super.
+- Dynamic Method Dispatch(Object matters).
+- Runtime and Compiletime polymorphism.
+- Encapsulation(log info).
+- Wrapper Classes(Integer, String).
+- Boxing & Unboxing & AutoBoxing (variable inside object).
+
+- Abstract keyword(class & method).
+- Final keyword(class, variable, method).
+- Interfaces.
+- Anonymous classes(to implement interface object).
+- Lambda Expressionss(defining interface object->in oneline).
+- Default method(ambiguity with multiple inheritance).
+- Static Method in Interfaces.(to access without creating objects)
+- Variables inside interfaces are constants.
+
+- Packages(classes & interfaces) in java.
+- Access Modifiers.
+
+Exception handling.
+- Try & catch (also to handle unhandled exception).
+- finally (execution by default).
+- Multiple catch blocks (exception e at end).
+- Throws.
+- Try with resource.
+- throw new Exception()..user defined.
+
+Input Handling.
+- Scanner input.
+- String Builder.
+- String functions.
+
+File IO.
+- Read & Write into/from object.
+
+Thread Handling.
+- Use one thread which is main() (by default).
+- Multiple threads for asynchronous tasks (Server requests, Gaming).
+- Parallel method execution on different cores.
+- Extends Thread.start() at same time.
+- Implements Runnable (thread objects and start).
+- Lambda function with multiple threads.
+- Execution flow with threads and start and main().
+- join() so that main can join after thread execution.
+- Naming for threads.
+- Range of priority..setpriority(1..10).
+- Synchronized keyword (Both threads accessing resource at same time).
+- synchronized keyword for method (Thread safe feature).
+
+Thread Safety
+- Multiple cores (threads).
+- Immutability (you can't chaneg values of objects).
+- synchronized keyword for method implmentation by multiple threads.
+- AtomicInteger class (To achieve thread safe).
+
+Collection and Generics
+- collection Concept.
+- Collection Interface.
+- Collections Class.
+
+Varieties in Collection
+- Collection val = new ArrayList(); Non-Generic types.
+- Collection<Integer> val = new ArrayList<Integer>(Optional)(); Generic Types.
+- Collections.sort(values).
+- Collections.shuffle(values).
+
+- Comparator<Integer> c = new Comparator<Integer>();
+- 1 swap the element , -1 don't swap the element.
+
+List extends Collection.
+- List of Objects.
+- Indexing.
+- List<Integer> val = new ArrayList<Integer>(Optional)(); Generic Types.
+- al.add(index, object).
+
+Set extends Collection.
+- HashSet.
+- No duplicates.
+- Different sequence.
+
+- TreeSet (in sorted format).
+
+Map extends Collection.
+- Maps Key with a Value.
+- Key is unique.
+
+- Hashmap.
+- Replaces with old value if key is repeated.
+- Set<String> keys = map.keySet().
+- Run through keys and get(key) for value.
+
+- Treemap.
+
+- HashTable.
+
+---------------------------------------------------------------------------------------------
+---------------------------------------------------------------------------------------------
+
+What is jar file?
+- Use a common file to use in all projects.
+- Zip all java class files.
+- You can use one project feature in other.
+- Create a jar.
+- Export it as just Jar file for importing it to another project.
+- Add external jars to use it.
+
+- Runnable jar.
+- Runconfiguartions->Give it a name.
+- Now export it as Runnable JAR file and save it to desktop. & Run.
+
+What is war file?
+- Packaged Web Application.
+- War file has web.xml(deployment descriptor(info on webapp)).
+- Export as war file into your directory.
+
+
+-----------------------------------------------------------------------------------------------
+
+How to run java on cmd prompt of windows system ????
+
+First, install jdk and jre required to begin java execution and envrn setup.
+- setpath ":c/:adhd:Kdhfh".
+- check by java -version.
+- Create a java class file(either ide or text file).
+- Save the file in folder. as .java file.
+- Now compile, javac and tab to look into files.
+- javac classname.java.
+- java classname.
+- Now, You can see the output in cmd prompt.
+---------------------------------------------------------------------------------------------
+
+How to pass String arguments to the main(String[] args) ???
+
+- javac TestRun.java.(Compile)
+- ls.(View all files)
+- java TestRun
+
+- arg.length > 0...print(arg[0])...in main code.
+
+- java TestRun Hello World. Also for 1 index pass "Hello world".
+- Hello will be printed to cmd prompt.
+- Also numbers can be passed which will be stored as a string.

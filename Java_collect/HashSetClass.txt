@@ -1,0 +1,18 @@
+
+
+Java HashSet
+
+Difference between List and Set
+A list can contain duplicate elements whereas Set contains unique elements only.
+
+
+//Removing specific element from HashSet  
+//Adding all the new elements from HashSet  
+//Removing all the new elements from HashSet  
+
+//Removing elements on the basis of specified condition
+//Removing all the elements available in the set ...clear()
+
+Java HashSet from another Collection
+
+//Adding list collection into hashset collection

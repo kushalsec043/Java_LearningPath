@@ -1,0 +1,29 @@
+
+
+
+Java Map Interface
+
+A map contains values on the basis of key, i.e. key and value pair.
+
+Map and SortedMap, and three classes: HashMap, LinkedHashMap, and TreeMap.
+HashMap and LinkedHashMap allow null keys and values, but TreeMap doesn't allow any null key or value.
+
+HashMap Class......
+
+Java HashMap class implements the map interface by using a hash table. 
+It inherits AbstractMap class and implements Map interface.
+
+ HashMap<Integer,String> hm=new HashMap<Integer,String>();   
+	for(Map.Entry m:hm.entrySet())
+	{    
+       System.out.println(m.getKey()+" "+m.getValue());    
+        }  
+
+//put to add on to hashmap
+//hm.replace(102, "Gaurav");  
+//hm.replace(101, "Vijay", "Ravi");  
+//hm.replaceAll((k,v) -> "Ajay");
+
+
+Difference between HashSet and HashMap
+HashSet contains only values whereas HashMap contains an entry(key and value).

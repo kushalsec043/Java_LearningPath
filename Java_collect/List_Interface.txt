@@ -1,0 +1,9 @@
+
+
+
+//List Interface
+
+ListIterator<String> itr=al.listIterator();  
+
+//Iterate through forward direction      hasnext()
+//Iterate through backward direction     hasprevious()

@@ -1,0 +1,34 @@
+
+
+
+
+About Eclipse..
+- Cntrl + 1
+- Cntrl + space
+- Cntrl + shift + R(specified class/source file)
+- F3(Goto Declaration)
+- F4(Type Hierarchy)
+
+About Maven...
+- Maven project.
+- Search for dependencies.(Include all maven concept)
+- Maven Build.
+- (Project Object Model)pom.xml has all dependencies, and how other project can use yours.
+- groupid and artifactid is important if you another project wants to use it.
+
+Build Maven Life Cycle.
+- Validate.
+- Compile SourceCode and TestCode.
+- Test Code (All Unit tests).
+- Build jar files.
+- Install in local repository.
+- Deploy.
+
+Locate Maven repository.
+Remote Maven repository.
+
+Maven Commands.
+- Maven Build ->mvn compile ->clean compile.
+- clean test ->compile.
+- dependency:sources.
+- compile --debug.

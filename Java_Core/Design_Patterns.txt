@@ -1,0 +1,42 @@
+----------------------------------------------------------------------------------------------
+
+--> Design Patterns.
+
+- Creational (create an object) C
+- Structural (compose objects like include two or more objects) S
+- Behavioural (communication between objects) B
+
+C. Factory Design Pattern
+- Interface for other classes.
+- Low coupling and high coehsion.
+- @Override to implement method interface.
+
+C. Builder Design Pattern
+- Getting object with prescribed requirements during object creation.
+- Creatig a new class to handle a class for user requirements.
+
+S. Adapter Design Pattern
+- Provide a adaptor between two different classes/Interfaces.
+- Implementation of class properties using an adaptor to execute an interface.
+
+S. Composite Design Pattern
+- Tree structure of objects.
+- Same operations are applicable for leaf as well as nodes in root and subtree too.
+- Components -> Sub-Components -> Leafs.
+
+C. Protoype Design Pattern
+
+- Shallow Cloning
+- Changes affect new object creation.
+- BookShop implements Clonable.
+- Get clone method from source.
+- BookShop bs1 = (BookShop)bs.clone();
+
+- Deep Cloning
+- Change return type of clone method to BookShop.
+- Create new object inside clone method, assign value and return that value.
+- So that you can get the same old object copy.
+
+B. Observer Design Pattern
+- YouTube Example.
+- Subscriber and Video upload Update Flow Diagram Implementation.
